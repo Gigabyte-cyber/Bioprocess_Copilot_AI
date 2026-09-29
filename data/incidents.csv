@@ -1,0 +1,11 @@
+batch_id,process_stage,incident_type,parameter,previous_value,current_value,agitation_rpm,aeration_vvm,biomass_g_l,temperature_c,ph,intervention,outcome
+B047,Microbial fermentation,Dissolved oxygen decline,DO,45,24,250,1.5,18.2,37,6.8,Increased agitation to 320 RPM,DO recovered to 39% in approximately 11 minutes
+B081,Microbial fermentation,Dissolved oxygen decline,DO,46,25,255,1.5,18.8,37,6.8,Increased agitation while monitoring DO,DO recovered to 41% in approximately 13 minutes
+B052,Microbial fermentation,pH drift,pH,6.8,6.2,300,1.4,15.5,37,6.2,Checked pH control system and corrected control input,pH returned toward target range
+B063,Microbial fermentation,Temperature rise,Temperature,37,39.5,280,1.5,16.8,39.5,6.8,Inspected cooling performance,Temperature returned toward process target
+B071,Microbial fermentation,Slow biomass growth,Biomass,14.2,15.1,260,1.3,15.1,36.5,6.8,Reviewed substrate availability and process temperature,Biomass growth rate improved after corrective checks
+B084,Microbial fermentation,Early substrate depletion,Substrate,8.5,1.2,300,1.5,19.1,37,6.8,Reviewed feeding strategy and substrate consumption,Substrate availability stabilized
+B091,Microbial fermentation,Product formation decline,Product,12.5,8.1,310,1.5,20.2,37,6.7,Reviewed oxygen and substrate trends,Product formation recovered toward expected trajectory
+B097,Microbial fermentation,Aeration abnormality,Aeration,1.8,0.9,300,0.9,17.5,37,6.8,Checked gas flow and sparger system,Aeration returned toward setpoint
+B103,Microbial fermentation,Agitation anomaly,Agitation,320,245,245,1.5,18.4,37,6.8,Checked motor and agitation system,Agitation returned toward target
+B110,Microbial fermentation,DO sensor anomaly,DO sensor,52,31,300,1.5,17.9,37,6.8,Verified sensor calibration and probe condition,Sensor reading returned to expected range
